@@ -1,0 +1,33 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60vh;
+  text-align: center;
+  background-color: rgba(121, 224, 223, 0.9);
+  border-radius: 2px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
+  margin-top: 60px;
+}
+
+.finalScore {
+  color: black;
+  font-size: 40px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+.message span {
+  font-size: 50px;
+}
+
+@media (min-width: 768px) {
+  .result {
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+  }
+}

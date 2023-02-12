@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  height: 20px;
+}
+.title {
+  font-size: 6vw;
+  font-weight: 700;
+  padding-top: 2px;
+  padding-left: 15px;
+  font-family: 'Libre Bodoni', serif;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.header .title:hover {
+  color: rgba(121, 224, 223, 0.9);
+}
+
+.divider {
+  width: 90%;
+  margin: 20px;
+  background-color: black;
+}
+@media (min-width: 768px) {
+  .divider {
+    width: 100%;
+    margin: auto;
+  }
+  .title {
+    font-size: 3vw;
+  }
+}

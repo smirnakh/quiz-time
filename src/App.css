@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Libre Bodoni', serif;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.App {
+  height: 98.5vh;
+  margin: 5px;
+  padding: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-app {
+  display: flex;
+  margin-top: 15px;
+}
+
+.dark {
+  background-image: url('../public/dark.jpg');
+  color: #fff;
+  background-size: 1500px;
+  background-position: center;
+}
+.light {
+  background-image: url('../public/light.jpg');
+  color: black;
+  background-size: 1500px;
+  background-position: center;
+}
+@media (min-width: 768px) {
+  .header-app {
+    width: 80%;
+    margin-left: 100px;
+    margin: auto;
+  }
+}
